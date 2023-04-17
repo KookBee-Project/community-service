@@ -18,7 +18,7 @@ jobs:
           distribution: 'adopt'
       
       - name: 스프링부트 애플리케이션 install # (0)
-        run: ./gradlew clean
+        run: sudo ./gradlew clean
 
       - name: 스프링부트 애플리케이션 빌드 # (1)
         run: ./gradlew build
